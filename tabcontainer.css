@@ -1,0 +1,83 @@
+/*
+ * CSS classes used/set by JQuery plugin tabcontainer.js
+ * 
+ * @author Veronika Sjödin  
+ * @date 2015-03-22
+ *
+ * Revisions: N/A
+ *
+ */
+.tabContentContainer{clear:all;}
+.tabULBasic {clear:all; margin: 0 0; padding:0px;}
+.tabULBasic li{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    float: left;
+    border-color: #555;
+    border-width: 0.1em;
+    padding: 5px;
+    margin-right: 0.3em;
+}
+.tabULBasic li.top{
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px; 
+    border-style: solid solid none solid;
+}
+.tabULBasic li.bottom{
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px; 
+    border-style: none solid solid solid;
+}
+.tabULBasic ul.mini{
+    width: 98%; 
+    height: 100%; 
+    padding:0px; 
+    margin: 0; 
+    clear:both;
+}
+.tabULBasic li.mini{
+    width: 100%; 
+    height: 100%; 
+    padding:0px; 
+    margin: 0; 
+    clear:both;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    border-style: solid solid solid solid;
+}
+.tabULBasic div.mini{
+    background-color:#FFF;
+    text-align: left;
+    padding: 0px;
+    clear:both;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;    
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px; 
+}
+.tabULBasic li:hover{
+    background-color: #DFDFDF;
+}
+.tabULBasic li.selected{
+    background-color: #DFDFDF;
+    z-index: 1;
+}
+ul.tabULBasic a{text-decoration: none; color: #000;}
+ul.tabULBasic a:hover{font-weight: bold;}
+
+.tabContent{
+    background-color:#FFF;
+    clear:both;
+    border: 1px solid;
+    min-height: 20em;
+    overflow: auto;
+}
+
+.clearFloat{clear:both;}
